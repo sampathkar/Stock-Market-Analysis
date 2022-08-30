@@ -1,0 +1,105 @@
+Following Stocks meets the selection Criteria: 
+
+BALA : 
+✅ Price Range is 105.25-113 
+✅ Closing Price is 108.0 
+✅ 20 day mov avg : 80.45 and 50 day mov avg : 56.44
+✅ 52 Week Range :['13.4', '117.5']
+✅ Closing price is 8 % higher/lower than the 10 day mov avg 
+✅ Closing price is 0 % higher/lower than the 5 day mov avg 
+✅ P/E Ratio is 4.16   
+
+🔥 ALSO Technical Indicators Say 'BUY' BALA 🔥
+
+KGAL : 
+✅ Price Range is 205-240 
+✅ Closing Price is 237.0 
+✅ 20 day mov avg : 186.91 and 50 day mov avg : 162.56
+✅ 52 Week Range :['80', '224.75']
+✅ Closing price is 15 % higher/lower than the 10 day mov avg 
+✅ Closing price is 12 % higher/lower than the 5 day mov avg 
+✅ P/E Ratio is 3.7   
+
+LDEV : 
+✅ Price Range is 26.5-27.7 
+✅ Closing Price is 27.0 
+✅ 20 day mov avg : 18.93 and 50 day mov avg : 11.03
+✅ 52 Week Range :['2.5', '28.1']
+✅ Closing price is 8 % higher/lower than the 10 day mov avg 
+✅ Closing price is 4 % higher/lower than the 5 day mov avg 
+✅ P/E Ratio is 5.81   
+
+HOPL : 
+✅ Price Range is 51.7-56.3 
+✅ Closing Price is 55.6 
+✅ 20 day mov avg : 38.85 and 50 day mov avg : 29.62
+✅ 52 Week Range :['14', '59']
+✅ Closing price is 16 % higher/lower than the 10 day mov avg 
+✅ Closing price is 2 % higher/lower than the 5 day mov avg 
+✅ P/E Ratio is 8.19   
+
+🔥 ALSO Technical Indicators Say 'BUY' HOPL 🔥
+
+KHL : 
+✅ Price Range is 14.9-16 
+✅ Closing Price is 16.0 
+✅ 20 day mov avg : 14.66 and 50 day mov avg : 12.28
+✅ 52 Week Range :['9.3', '17.5']
+✅ Closing price is 3 % higher/lower than the 10 day mov avg 
+✅ Closing price is 3 % higher/lower than the 5 day mov avg 
+✅ P/E Ratio is -37.12   
+
+EMER : 
+✅ Price Range is 12.5-12.5 
+✅ Closing Price is 12.5 
+✅ 20 day mov avg : 8.34 and 50 day mov avg : 6.69
+✅ 52 Week Range :['4.5', '12']
+✅ Closing price is 23 % higher/lower than the 10 day mov avg 
+✅ Closing price is 22 % higher/lower than the 5 day mov avg 
+✅ P/E Ratio is 1.17   
+
+CICt : 
+✅ Price Range is 43-45.7 
+✅ Closing Price is 44.9 
+✅ 20 day mov avg : 40.96 and 50 day mov avg : 31.12
+✅ 52 Week Range :['17', '54']
+✅ Closing price is 2 % higher/lower than the 10 day mov avg 
+✅ Closing price is 1 % higher/lower than the 5 day mov avg 
+✅ P/E Ratio is 3.49   
+
+ASIA : 
+✅ Price Range is 4.2-4.6 
+✅ Closing Price is 4.4 
+✅ 20 day mov avg : 3.83 and 50 day mov avg : 3.358
+✅ 52 Week Range :['1.9', '4.6']
+✅ Closing price is 9 % higher/lower than the 10 day mov avg 
+✅ Closing price is 2 % higher/lower than the 5 day mov avg 
+✅ P/E Ratio is 6.27   
+
+🔥 ALSO Technical Indicators Say 'BUY' ASIA 🔥
+
+🔥🔥 more than 300% increase in the volume in ASIA 🔥🔥
+
+
+CEYL : 
+✅ Price Range is 4.7-5.4 
+✅ Closing Price is 5.2 
+✅ 20 day mov avg : 4.26 and 50 day mov avg : 3.77
+✅ 52 Week Range :['2.8', '5.7']
+✅ Closing price is 11 % higher/lower than the 10 day mov avg 
+✅ Closing price is 0 % higher/lower than the 5 day mov avg 
+✅ P/E Ratio is 15.13   
+
+BERU : 
+✅ Price Range is 1.3-1.5 
+✅ Closing Price is 1.5 
+✅ 20 day mov avg : 1.26 and 50 day mov avg : 1.09
+✅ 52 Week Range :['0.8', '2']
+✅ Closing price is 11 % higher/lower than the 10 day mov avg 
+✅ Closing price is 10 % higher/lower than the 5 day mov avg 
+✅ P/E Ratio is -2.41   
+
+Error in the stock PRIE.
+Error message : ERR#0122: introduced name does not exist in the introduced country (if required).
+Error in the stock SFL.
+Error message : ERR#0007: stock information unavailable or not found.
