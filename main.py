@@ -69,15 +69,20 @@ def share_criteria(share_list_no):
 # calling the function for each table with few seconds of sleep after running the code.
 # this is to avoid disconnection from the server
   
-#share_criteria(all_shares_list)
-#share_criteria(all_shares_list1)
-#print ("all_shares_list1 is checked")
-#
+share_criteria(all_shares_list)
+share_criteria(all_shares_list1)
+print ("all_shares_list1 is checked")
+time.sleep(200)
+
+share_criteria(all_shares_list2)
+print ("all_shares_list2 is checked")
+time.sleep(200)
+
 share_criteria(all_shares_list3)
 print ("all_shares_list3 is checked")
 time.sleep(200)
-share_criteria(all_shares_list4)
 
+share_criteria(all_shares_list4)
 print("Process completed")
 
 
