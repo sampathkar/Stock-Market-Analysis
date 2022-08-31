@@ -40,17 +40,19 @@ def share_criteria(share_list_no):
             mov100 = mov_avg_data.iloc[4, 1]
             mov200 = mov_avg_data.iloc[5, 1]
             
-            ema10 = mov_avg_data.iloc[1, 2]
-            ema20 = mov_avg_data.iloc[2, 2]
-            ema50 = mov_avg_data.iloc[3, 2]
+            ema10 = mov_avg_data.iloc[1, 3]
+            ema20 = mov_avg_data.iloc[2, 3]
+            ema50 = mov_avg_data.iloc[3, 3]
           
             last_price = inv.get_stock_recent_data(stock=x, country='Sri Lanka', as_json=False, order="ascending", interval="Daily").Close.iat[-1] #getting only the closing price.last row close column
             
+            time.sleep(2)
+          
             if  ema10 > ema20 > ema50 and ema10 >= (ema20*1.2) and ema20 >= (ema50*1.4):
               with open ("short_term_signals.txt","a") as p:
                       p.write(f"{x} \n ✅ Closing Price is {last_price}\n✅10ema= {ema10}\n✅20ema= {ema20}\n✅50ema= {ema50}\n\n\n ")
                     
-              time.sleep(2)
+            
     
             elif last_price >= mov10 >= mov20 >= mov50 >= mov100 and last_price >= mov200:#condition 1
               tech_ind_data = inv.technical_indicators(name=x, country='Sri Lanka', product_type='stock', interval='daily')

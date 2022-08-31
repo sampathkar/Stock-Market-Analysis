@@ -1,4 +1,13 @@
 Following Stocks meets the selection Criteria as at 31/08/2022 : 
 
-Error in the stock DIMO.
-Error message : ERR#0015: error 429, try again later.
+BALA : 
+✅ Price Range is 105.25-113 
+✅ Closing Price is 108.0 
+✅ 20 day mov avg : 80.45 and 50 day mov avg : 56.44
+✅ 52 Week Range :['13.4', '117.5']
+✅ Closing price is 8 % higher/lower than the 10 day mov avg 
+✅ Closing price is 0 % higher/lower than the 5 day mov avg 
+✅ P/E Ratio is 4.28   
+
+Error in the stock BALA.
+Error message : '>=' not supported between instances of 'numpy.ndarray' and 'str'
