@@ -11,7 +11,7 @@ with open ("share_list.txt", "w") as o:
   o.write(f"Following Stocks meets the selection Criteria as at {d1} : \n\n")
 
 with open ("short_term_signals.txt","w") as p:
-  p.write(f"Following Stocks can be good short term as at {d1} :\n\n ")
+  p.write(f"Following Stocks shows early signs of an uptrend as at {d1} :\n\n ")
 
 # List of shares below. maintain separate lists to avoid disconnections from the server
 all_shares_list = ['DIMO', 'MGT', 'MBSL', 'RGEM', 'RICH', 'SINI', 'ACME', 'BALA']
@@ -23,6 +23,10 @@ all_shares_list2 = ['ASIA', 'ASSO', 'BROW', 'DIAO', 'CEYL', 'CDBF', 'COMN','BERU
 all_shares_list3 =['CIT', 'SHAL', 'ARIC', 'SWAD', 'INDO', 'SIGH', 'PEIN', 'ORIT', 'COCOt', 'SFL_p', 'ANTK','LGGLt', 'RHLt', 'CDBFt', 'MALt', 'MELS', 'JETW', 'LVLE', 'HATT', 'MAHA', 'RENH', 'SMOT', 'SEYBt','SEMBt', 'SPEN', 'ATL', 'CONN', 'BFL', 'CHOT', 'DIAL', 'ECL', 'HEXP', 'LLUB','HASU', 'KCAB', 'CERA', 'LCEY', 'REG', 'SIRA', 'AUTO', 'APLA', 'ACAP', 'CIC', 'KHC', 'TYRE','NEST', 'SAMP', 'CTHR', 'CWM', 'JKL', 'SEYB', 'SEMB', 'ACL', 'ETWO', 'LFIN', 'SHAW', 'VLL','DFCC', 'LIOC', 'CARE', 'SELI', 'TESS', 'CHMX', 'HAYC', 'UNIS', 'ACCE', 'AGST', 'ASAS']
 
 all_shares_list4 =['ABEO', 'BLUE', 'DIST', 'GUAR', 'LPRT', 'CFLB', 'HDFC', 'COMD', 'LHCL', 'BLUEt', 'AHUN', 'COMBt','PABC', 'MAL', 'CLND', 'AHPL', 'BOPL', 'COMB', 'WAPO', 'KVAL', 'NDB', 'TSML', 'UDPL', 'SFTL','BREW','HAPU', 'MULL', 'OSEA', 'PEG', 'PMB', 'RPBH', 'TKYOt', 'AMSL', 'ASIR', 'HNBt', 'SERC', 'SIGV','TPL', 'LION', 'TKYO', 'AGAL', 'CABO', 'GRAN', 'CFVF', 'LMF', 'NAMU', 'REXP', 'TANG', 'VPEL','BOGA', 'KAHA', 'MADU', 'MRH', 'MASK', 'EAST', 'ELPL', 'HNB', 'JKH', 'KFP', 'KOTA', 'CSF']
+
+my_portfolio = []
+
+
 # End of the list of shares
 
 
@@ -48,7 +52,7 @@ def share_criteria(share_list_no):
             
             time.sleep(2)
           
-            if  ema10 > ema20 > ema50 and ema10 >= (ema20*1.2) and ema20 >= (ema50*1.4):
+            if  ema10 > ema20 and ema10 <= (ema20*1.3) and ema20 <= (ema50*1.6):
               with open ("short_term_signals.txt","a") as p:
                       p.write(f"{x} \n ✅ Closing Price is {last_price}\n✅10ema= {ema10}\n✅20ema= {ema20}\n✅50ema= {ema50}\n\n\n ")
                     
@@ -90,17 +94,50 @@ def share_criteria(share_list_no):
                     
         except Exception as e: #getting the error message as e
             with open ("share_list.txt", "a") as o:
-              o.write(f"Error in the stock {x}.\nError message : {e}\n")
+              o.write(f"Error in the stock {x}.\nError message : {e}\n\n")
 
       
           
-    except Exception as f: #getting the error message as e
+    except Exception as f: #getting the error message as f
       with open ("share_list.txt", "a") as o:
-        o.write(f"Error in the stock {x}.\nError message : {f}\n")
+        o.write(f"Error in the stock {x}.\nError message : {f}\n\n")
 # end of the function.
 
 # calling the function for each table with few seconds of sleep after running the code.
 # this is to avoid disconnection from the server
+
+
+
+
+def my_portfolio(my_portfolio):
+  for x in my_portfolio:
+    time.sleep(2)
+    try:
+      mov_avg_data = inv.moving_averages(name=x, country='Sri Lanka', product_type='stock', interval='daily')
+      try:
+        mov10 = mov_avg_data.iloc[1, 1]
+        mov20 = mov_avg_data.iloc[2, 1]
+        mov50 = mov_avg_data.iloc[3, 1]
+        
+        ema10 = mov_avg_data.iloc[1, 3]
+        ema20 = mov_avg_data.iloc[2, 3]
+        ema50 = mov_avg_data.iloc[3, 3]
+
+        if #sell signals for the portfolio
+
+
+    except Exception as g: #getting the error message as g
+      print("error")
+
+
+
+
+
+
+
+
+
+
 
 
 share_criteria(all_shares_list)
