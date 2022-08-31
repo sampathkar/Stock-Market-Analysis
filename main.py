@@ -10,7 +10,7 @@ d1 = today.strftime("%d/%m/%Y")
 with open ("share_list.txt", "w") as o:
   o.write(f"Following Stocks meets the selection Criteria as at {d1} : \n\n")
 
-with open ("short_term_signals.txt","w") as p:
+with open ("early_signals.txt","w") as p:
   p.write(f"Following Stocks shows early signs of an uptrend as at {d1} :\n\n ")
 
 # List of shares below. maintain separate lists to avoid disconnections from the server
@@ -53,7 +53,7 @@ def share_criteria(share_list_no):
             time.sleep(2)
           
             if  ema10 > ema20 and ema10 <= (ema20*1.3) and ema20 <= (ema50*1.6):
-              with open ("short_term_signals.txt","a") as p:
+              with open ("early_signals.txt","a") as p:
                       p.write(f"{x} \n ✅ Closing Price is {last_price}\n✅10ema= {ema10}\n✅20ema= {ema20}\n✅50ema= {ema50}\n\n\n ")
                     
             
