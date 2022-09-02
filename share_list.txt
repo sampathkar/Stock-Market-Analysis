@@ -1,261 +1,32 @@
-Following Stocks meets the selection Criteria as at 31/08/2022 : 
+Following Stocks meets the selection Criteria as at 02/09/2022 : 
 
-Error in the stock MGT.
+Error in the stock BALA.
 Error message : ERR#0015: error 504, try again later.
-BALA : 
-✅ Price Range is 108.25-117 
-✅ Closing Price is 116.0 
-✅ 20 day mov avg : 83.39 and 50 day mov avg : 58.08
-✅ 52 Week Range :['13.4', '117.5']
-✅ Closing price is 11 % higher/lower than the 10 day mov avg 
-✅ Closing price is 6 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 4.28   
 
-🔥🔥 Technical Indicators Say 'BUY' BALA 🔥🔥
+RHTL : 
+✅ Price Range is 19.2-21.4 
+✅ Closing Price is 19.2 
+✅ 20 day mov avg : 15.61 and 50 day mov avg : 12.62
+✅ 52 Week Range :['9.5', '21.4']
+✅ Closing price is 4 % higher/lower than the 10 day mov avg 
+✅ Closing price is 0 % higher/lower than the 5 day mov avg 
+✅ P/E Ratio is 20.48   
 
+DPL : 
+✅ Price Range is 15.6-16.2 
+✅ Closing Price is 16.1 
+✅ 20 day mov avg : 15.1 and 50 day mov avg : 12.41
+✅ 52 Week Range :['6.8', '20.8']
+✅ Closing price is 3 % higher/lower than the 10 day mov avg 
+✅ Closing price is 2 % higher/lower than the 5 day mov avg 
+✅ P/E Ratio is 5.45   
 
 KGAL : 
-✅ Price Range is 230.5-249 
-✅ Closing Price is 248.0 
-✅ 20 day mov avg : 190.61 and 50 day mov avg : 165.0
-✅ 52 Week Range :['80', '240']
-✅ Closing price is 16 % higher/lower than the 10 day mov avg 
-✅ Closing price is 12 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 3.8   
+✅ Price Range is 242-270 
+✅ Closing Price is 250.0 
+✅ 20 day mov avg : 194.59 and 50 day mov avg : 167.4
+✅ 52 Week Range :['80', '270']
+✅ Closing price is 15 % higher/lower than the 10 day mov avg 
+✅ Closing price is 8 % higher/lower than the 5 day mov avg 
+✅ P/E Ratio is 4.59   
 
-LDEV : 
-✅ Price Range is 27.7-31.3 
-✅ Closing Price is 31.3 
-✅ 20 day mov avg : 19.99 and 50 day mov avg : 11.57
-✅ 52 Week Range :['2.5', '28.1']
-✅ Closing price is 17 % higher/lower than the 10 day mov avg 
-✅ Closing price is 13 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 6.06   
-
-🔥🔥 Technical Indicators Say 'BUY' LDEV 🔥🔥
-
-
-HOPL : 
-✅ Price Range is 52.6-57.5 
-✅ Closing Price is 54.5 
-✅ 20 day mov avg : 40.02 and 50 day mov avg : 30.3
-✅ 52 Week Range :['14', '59']
-✅ Closing price is 10 % higher/lower than the 10 day mov avg 
-✅ Closing price is 2 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 8.02   
-
-KHL : 
-✅ Price Range is 14.9-16 
-✅ Closing Price is 16.8 
-✅ 20 day mov avg : 14.8 and 50 day mov avg : 12.4
-✅ 52 Week Range :['9.3', '17.5']
-✅ Closing price is 6 % higher/lower than the 10 day mov avg 
-✅ Closing price is 6 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is -37.12   
-
-EMER : 
-✅ Price Range is 12.5-12.5 
-✅ Closing Price is 14.3 
-✅ 20 day mov avg : 8.76 and 50 day mov avg : 6.85
-✅ 52 Week Range :['4.5', '12.5']
-✅ Closing price is 29 % higher/lower than the 10 day mov avg 
-✅ Closing price is 23 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 1.38   
-
-CICt : 
-✅ Price Range is 45.2-49 
-✅ Closing Price is 48.7 
-✅ 20 day mov avg : 41.8 and 50 day mov avg : 31.6
-✅ 52 Week Range :['17', '54']
-✅ Closing price is 8 % higher/lower than the 10 day mov avg 
-✅ Closing price is 7 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 3.49   
-
-🔥🔥 Technical Indicators Say 'BUY' CICt 🔥🔥
-
-
-ASIA : 
-✅ Price Range is 4.3-4.6 
-✅ Closing Price is 4.5 
-✅ 20 day mov avg : 3.865 and 50 day mov avg : 3.392
-✅ 52 Week Range :['1.9', '4.6']
-✅ Closing price is 9 % higher/lower than the 10 day mov avg 
-✅ Closing price is 3 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 6.27   
-
-CEYL : 
-✅ Price Range is 5.1-5.3 
-✅ Closing Price is 5.2 
-✅ 20 day mov avg : 4.33 and 50 day mov avg : 3.81
-✅ 52 Week Range :['2.8', '5.7']
-✅ Closing price is 8 % higher/lower than the 10 day mov avg 
-✅ Closing price is 1 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 16.06   
-
-Error in the stock SFL.
-Error message : ERR#0007: stock information unavailable or not found.
-Error in the stock SWAD.
-Error message : ERR#0007: stock information unavailable or not found.
-Error in the stock SFL_p.
-Error message : ERR#0007: stock information unavailable or not found.
-MALt : 
-✅ Price Range is 43-45 
-✅ Closing Price is 44.0 
-✅ 20 day mov avg : 40.26 and 50 day mov avg : 29.36
-✅ 52 Week Range :['8.5', '45']
-✅ Closing price is 6 % higher/lower than the 10 day mov avg 
-✅ Closing price is 2 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 8.03   
-
-MELS : 
-✅ Price Range is 49.9-54.2 
-✅ Closing Price is 54.1 
-✅ 20 day mov avg : 49.27 and 50 day mov avg : 42.97
-✅ 52 Week Range :['29.5', '68']
-✅ Closing price is 7 % higher/lower than the 10 day mov avg 
-✅ Closing price is 9 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 3.25   
-
-HATT : 
-✅ Price Range is 38-43.2 
-✅ Closing Price is 39.9 
-✅ 20 day mov avg : 26.14 and 50 day mov avg : 19.41
-✅ 52 Week Range :['7.9', '41.8']
-✅ Closing price is 20 % higher/lower than the 10 day mov avg 
-✅ Closing price is 13 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 4.63   
-
-🔥🔥 Technical Indicators Say 'BUY' HATT 🔥🔥
-
-
-SPEN : 
-✅ Price Range is 130.5-150.5 
-✅ Closing Price is 148.5 
-✅ 20 day mov avg : 119.22 and 50 day mov avg : 97.92
-✅ 52 Week Range :['60', '133']
-✅ Closing price is 16 % higher/lower than the 10 day mov avg 
-✅ Closing price is 13 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 3.06   
-
-LCEY : 
-✅ Price Range is 58-70.7 
-✅ Closing Price is 70.7 
-✅ 20 day mov avg : 43.37 and 50 day mov avg : 30.26
-✅ 52 Week Range :['16.7', '63.8']
-✅ Closing price is 21 % higher/lower than the 10 day mov avg 
-✅ Closing price is 19 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 4.31   
-
-🔥🔥 Technical Indicators Say 'BUY' LCEY 🔥🔥
-
-
-Error in the stock CIC.
-Error message : ERR#0015: error 504, try again later.
-Error in the stock ETWO.
-Error message : ERR#0015: error 502, try again later.
-LIOC : 
-✅ Price Range is 171-182 
-✅ Closing Price is 181.75 
-✅ 20 day mov avg : 160.5 and 50 day mov avg : 110.57
-✅ 52 Week Range :['19.2', '193']
-✅ Closing price is 3 % higher/lower than the 10 day mov avg 
-✅ Closing price is 6 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 6.07   
-
-CARE : 
-✅ Price Range is 63-75 
-✅ Closing Price is 74.8 
-✅ 20 day mov avg : 48.76 and 50 day mov avg : 37.96
-✅ 52 Week Range :['20', '65']
-✅ Closing price is 17 % higher/lower than the 10 day mov avg 
-✅ Closing price is 15 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 1.63   
-
-AGST : 
-✅ Price Range is 14.1-15.8 
-✅ Closing Price is 15.2 
-✅ 20 day mov avg : 11.89 and 50 day mov avg : 8.47
-✅ 52 Week Range :['4.31', '19.5']
-✅ Closing price is 11 % higher/lower than the 10 day mov avg 
-✅ Closing price is 10 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 4.41   
-
-Error in the stock BLUE.
-Error message : ERR#0007: stock information unavailable or not found.
-Error in the stock COMD.
-Error message : ERR#0015: error 502, try again later.
-Error in the stock LHCL.
-Error message : ERR#0015: error 504, try again later.
-Error in the stock BLUEt.
-Error message : ERR#0007: stock information unavailable or not found.
-AHUN : 
-✅ Price Range is 56-61 
-✅ Closing Price is 59.0 
-✅ 20 day mov avg : 44.84 and 50 day mov avg : 37.16
-✅ 52 Week Range :['28', '59']
-✅ Closing price is 14 % higher/lower than the 10 day mov avg 
-✅ Closing price is 7 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 28.0   
-
-Error in the stock MAL.
-Error message : ERR#0015: error 502, try again later.
-Error in the stock CLND.
-Error message : ERR#0015: error 504, try again later.
-BOPL : 
-✅ Price Range is 65-70 
-✅ Closing Price is 65.2 
-✅ 20 day mov avg : 49.41 and 50 day mov avg : 32.57
-✅ 52 Week Range :['9', '70']
-✅ Closing price is 5 % higher/lower than the 10 day mov avg 
-✅ Closing price is 0 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is -   
-
-KVAL : 
-✅ Price Range is 101.75-109 
-✅ Closing Price is 104.0 
-✅ 20 day mov avg : 94.91 and 50 day mov avg : 83.5
-✅ 52 Week Range :['28.9', '124']
-✅ Closing price is 4 % higher/lower than the 10 day mov avg 
-✅ Closing price is 2 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 2.92   
-
-Error in the stock NDB.
-Error message : ERR#0015: error 502, try again later.
-TSML : 
-✅ Price Range is 52-60 
-✅ Closing Price is 60.0 
-✅ 20 day mov avg : 46.56 and 50 day mov avg : 39.61
-✅ 52 Week Range :['26.5', '60']
-✅ Closing price is 14 % higher/lower than the 10 day mov avg 
-✅ Closing price is 12 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 7.57   
-
-UDPL : 
-✅ Price Range is 120-138.25 
-✅ Closing Price is 120.0 
-✅ 20 day mov avg : 94.11 and 50 day mov avg : 62.76
-✅ 52 Week Range :['22', '134.5']
-✅ Closing price is 0 % higher/lower than the 10 day mov avg 
-✅ Closing price is 0 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 3.24   
-
-KAHA : 
-✅ Price Range is 36.3-39 
-✅ Closing Price is 36.9 
-✅ 20 day mov avg : 30.32 and 50 day mov avg : 27.16
-✅ 52 Week Range :['19', '39.9']
-✅ Closing price is 8 % higher/lower than the 10 day mov avg 
-✅ Closing price is 1 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is -   
-
-MASK : 
-✅ Price Range is 65-69 
-✅ Closing Price is 66.0 
-✅ 20 day mov avg : 50.06 and 50 day mov avg : 33.62
-✅ 52 Week Range :['8', '67.4']
-✅ Closing price is 7 % higher/lower than the 10 day mov avg 
-✅ Closing price is 2 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 6.66   
-
-Error in the stock KOTA.
-Error message : ERR#0015: error 502, try again later.

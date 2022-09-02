@@ -43,7 +43,8 @@ def share_criteria(share_list_no):
             mov50 = mov_avg_data.iloc[3, 1]
             mov100 = mov_avg_data.iloc[4, 1]
             mov200 = mov_avg_data.iloc[5, 1]
-            
+
+            ema5= mov_avg_data.iloc[0, 3]
             ema10 = mov_avg_data.iloc[1, 3]
             ema20 = mov_avg_data.iloc[2, 3]
             ema50 = mov_avg_data.iloc[3, 3]
@@ -51,14 +52,9 @@ def share_criteria(share_list_no):
             last_price = inv.get_stock_recent_data(stock=x, country='Sri Lanka', as_json=False, order="ascending", interval="Daily").Close.iat[-1] #getting only the closing price.last row close column
             
             time.sleep(2)
-          
-            if  ema10 > ema20 and ema10 <= (ema20*1.3) and ema20 <= (ema50*1.6):
-              with open ("early_signals.txt","a") as p:
-                      p.write(f"{x} \n ✅ Closing Price is {last_price}\n✅10ema= {ema10}\n✅20ema= {ema20}\n✅50ema= {ema50}\n\n\n ")
-                    
-            
+                   
     
-            elif last_price >= mov10 >= mov20 >= mov50 >= mov100 and last_price >= mov200:#condition 1
+            if last_price >= mov10 >= mov20 >= mov50 >= mov100 and last_price >= mov200:#condition 1
               tech_ind_data = inv.technical_indicators(name=x, country='Sri Lanka', product_type='stock', interval='daily')
               rsi=tech_ind_data.iloc[0, 1] #getting only the rsi indicator result
               
@@ -91,6 +87,12 @@ def share_criteria(share_list_no):
                   if rsi >= 70 and tech_ind_data.iloc[1, 2] == tech_ind_data.iloc[3, 2] == tech_ind_data.iloc[9, 2] == tech_ind_data.iloc[1, 2] == "buy" and last_price >= ema10 >= ema20 >= ema50 and volume / avg_volume >= 2:
                     with open ("share_list.txt", "a") as o:
                       o.write(f"🔥🔥 Technical Indicators Say 'BUY' {x} 🔥🔥\n\n\n")
+
+                if  last_price > ema5 > ema10 > ema20 and ema10 <= (ema20*1.3) and ema20 <= (ema50*1.6) and last_price < (ema20*1.4) and rsi > 60 :
+                  with open ("early_signals.txt","a") as p:
+                      p.write(f"{x} \n ✅ Closing Price is {last_price}\n✅10ema= {ema10}\n✅20ema= {ema20}\n✅rsi= {rsi}\n\n\n ")
+             
+            
                     
         except Exception as e: #getting the error message as e
             with open ("share_list.txt", "a") as o:
@@ -105,38 +107,6 @@ def share_criteria(share_list_no):
 
 # calling the function for each table with few seconds of sleep after running the code.
 # this is to avoid disconnection from the server
-
-
-
-
-def my_portfolio(my_portfolio):
-  for x in my_portfolio:
-    time.sleep(2)
-    try:
-      mov_avg_data = inv.moving_averages(name=x, country='Sri Lanka', product_type='stock', interval='daily')
-      try:
-        mov10 = mov_avg_data.iloc[1, 1]
-        mov20 = mov_avg_data.iloc[2, 1]
-        mov50 = mov_avg_data.iloc[3, 1]
-        
-        ema10 = mov_avg_data.iloc[1, 3]
-        ema20 = mov_avg_data.iloc[2, 3]
-        ema50 = mov_avg_data.iloc[3, 3]
-
-        if #sell signals for the portfolio
-
-
-    except Exception as g: #getting the error message as g
-      print("error")
-
-
-
-
-
-
-
-
-
 
 
 
