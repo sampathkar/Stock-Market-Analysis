@@ -1,32 +1,53 @@
-Following Stocks meets the selection Criteria as at 02/09/2022 : 
+Following Stocks meets the selection Criteria as at 16/09/2022 : 
+
+Error in the stock DIMO.
+Error message : ERR#0015: error 403, try again later.
+
+Error in the stock MGT.
+Error message : ERR#0015: error 403, try again later.
+
+Error in the stock MBSL.
+Error message : ERR#0015: error 403, try again later.
+
+Error in the stock RGEM.
+Error message : ERR#0015: error 403, try again later.
+
+Error in the stock RICH.
+Error message : ERR#0015: error 403, try again later.
+
+Error in the stock SINI.
+Error message : ERR#0015: error 403, try again later.
+
+Error in the stock ACME.
+Error message : ERR#0015: error 403, try again later.
 
 Error in the stock BALA.
-Error message : ERR#0015: error 504, try again later.
+Error message : ERR#0015: error 403, try again later.
 
-RHTL : 
-✅ Price Range is 19.2-21.4 
-✅ Closing Price is 19.2 
-✅ 20 day mov avg : 15.61 and 50 day mov avg : 12.62
-✅ 52 Week Range :['9.5', '21.4']
-✅ Closing price is 4 % higher/lower than the 10 day mov avg 
-✅ Closing price is 0 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 20.48   
+Error in the stock GLAS.
+Error message : ERR#0015: error 403, try again later.
 
-DPL : 
-✅ Price Range is 15.6-16.2 
-✅ Closing Price is 16.1 
-✅ 20 day mov avg : 15.1 and 50 day mov avg : 12.41
-✅ 52 Week Range :['6.8', '20.8']
-✅ Closing price is 3 % higher/lower than the 10 day mov avg 
-✅ Closing price is 2 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 5.45   
+Error in the stock RCL.
+Error message : ERR#0015: error 403, try again later.
 
-KGAL : 
-✅ Price Range is 242-270 
-✅ Closing Price is 250.0 
-✅ 20 day mov avg : 194.59 and 50 day mov avg : 167.4
-✅ 52 Week Range :['80', '270']
-✅ Closing price is 15 % higher/lower than the 10 day mov avg 
-✅ Closing price is 8 % higher/lower than the 5 day mov avg 
-✅ P/E Ratio is 4.59   
+Error in the stock SIL.
+Error message : ERR#0015: error 403, try again later.
+
+Error in the stock RHTL.
+Error message : ERR#0015: error 403, try again later.
+
+Error in the stock LHL.
+Error message : ERR#0015: error 403, try again later.
+
+Error in the stock WATA.
+Error message : ERR#0015: error 403, try again later.
+
+Error in the stock YORK.
+Error message : ERR#0015: error 403, try again later.
+
+Error in the stock ALLI.
+Error message : ERR#0015: error 403, try again later.
+
+Error in the stock BBH.
+Error message : ERR#0015: error 403, try again later.
 
